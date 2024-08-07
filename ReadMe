@@ -1,0 +1,14 @@
+#Activate virtual environment  ###python -m venv Prod
+#cd E:\Scripts\Python\Prod 
+#.\Scripts\activate 
+
+#Install dependencies and packages needed --to be done only once.
+#pip install prefect==2.19.0      
+#pip install -r requirements.txt            
+
+#Launch prefect for orchestration in cmd
+#prefect server start
+
+#Launch flow in a different cmd
+#python Load_Rova_Collections.py                        
+
