@@ -7,23 +7,10 @@ In this project, I developed an ETL pipeline using Python to seamlessly transfer
 The process involves extracting data from various MongoDB collections, handling nested structures by flattening them, transforming the data into SQL-compatible formats, and loading the cleaned 
 and structured data into the SQL Server. 
 
-This automation ensures efficient data migration and transformation, leveraging Prefect for workflow orchestration and ensuring that complex data engineering tasks are executed 
-reliably and repeatably. 
+This automation ensures efficient data migration and transformation, leveraging Prefect for workflow orchestration and ensuring that complex data engineering tasks are executed reliably and repeatably. 
 
 The use of Python libraries such as Pandas, SQLAlchemy, and PyMongo underscores the project's robust and scalable approach to managing large datasets.
 
 
-#Activate virtual environment  ###python -m venv Prod
-#cd E:\Scripts\Python\Prod 
-#.\Scripts\activate 
-
-#Install dependencies and packages needed --to be done only once.
-#pip install prefect==2.19.0      
-#pip install -r requirements.txt            
-
-#Launch prefect for orchestration in cmd
-#prefect server start
-
-#Launch flow in a different cmd
-#python Load_Rova_Collections.py                        
+                     
 
